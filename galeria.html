@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Galeria de fotografias e vídeos das atividades do MASAFAM.">
+
+    <title>Galeria | MASAFAM</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="gallery-page">
+
+    <!-- CABEÇALHO -->
+    <header class="gallery-header">
+
+        <a href="index.html" class="gallery-brand">
+            <img src="Foto.jpeg" alt="Logótipo MASAFAM">
+
+            <span>
+                <strong>MASAFAM</strong>
+                <small>Mais apoio, mais futuro</small>
+            </span>
+        </a>
+
+        <a href="index.html" class="gallery-back">
+            ← Página inicial
+        </a>
+
+    </header>
+
+    <main>
+
+        <!-- DESTAQUE DA GALERIA -->
+        <section class="gallery-hero">
+
+            <span class="gallery-label">
+                AS NOSSAS MEMÓRIAS
+            </span>
+
+            <h1>Galeria <span>MASAFAM</span></h1>
+
+            <p>
+                Conheça os nossos momentos, as nossas atividades
+                e as experiências que partilhamos com as crianças.
+                Cada imagem conta uma história de solidariedade,
+                aprendizagem e esperança.
+            </p>
+
+            <div class="gallery-stats">
+                <div>
+                    <strong>📸</strong>
+                    <span>Fotografias</span>
+                </div>
+
+                <div>
+                    <strong>🎬</strong>
+                    <span>Vídeos</span>
+                </div>
+
+                <div>
+                    <strong>💚</strong>
+                    <span>Momentos especiais</span>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- GALERIA -->
+        <section class="gallery-content" id="galeria">
+
+            <div class="gallery-heading">
+                <div>
+                    <span class="gallery-section-label">
+                        RECORDAR E PARTILHAR
+                    </span>
+
+                    <h2>Explore as nossas atividades</h2>
+
+                    <p>
+                        Selecione uma categoria para visualizar os conteúdos.
+                    </p>
+                </div>
+            </div>
+
+            <!-- BOTÕES DE CATEGORIA -->
+            <div class="gallery-tabs">
+
+                <button class="gallery-tab active"
+                        type="button"
+                        data-category="fotos">
+                    📸 Fotografias
+                </button>
+
+                <button class="gallery-tab"
+                        type="button"
+                        data-category="videos">
+                    ▶ Vídeos
+                </button>
+
+            </div>
+
+            <!-- CATEGORIA: FOTOGRAFIAS -->
+            <div class="gallery-panel active" id="fotos">
+
+                <div class="gallery-grid">
+
+                    <!-- FOTO 1 -->
+                    <article class="gallery-item">
+                        <img src="Foto 1.jpeg"
+                             alt="Atividade educativa do MASAFAM"
+                             loading="lazy">
+
+                        <div class="gallery-item-info">
+                            <span>📸 Fotografia</span>
+                            <h3>Momentos de aprendizagem</h3>
+                        </div>
+                    </article>
+
+                    <!-- FOTO 2 -->
+                    <article class="gallery-item">
+                        <img src="Foto 3.jpeg"
+                             alt="Participação dos alunos numa atividade"
+                             loading="lazy">
+
+                        <div class="gallery-item-info">
+                            <span>📸 Fotografia</span>
+                            <h3>Participação dos alunos</h3>
+                        </div>
+                    </article>
+
+                    <!-- FOTO 3 -->
+                    <article class="gallery-item">
+                        <img src="Foto Soli.jpg"
+                             alt="Atividade de solidariedade"
+                             loading="lazy">
+
+                        <div class="gallery-item-info">
+                            <span>📸 Fotografia</span>
+                            <h3>Solidariedade em ação</h3>
+                        </div>
+                    </article>
+
+                    <!-- FOTO 4 -->
+                    <article class="gallery-item">
+                        <img src="Foto viven.jpg"
+                             alt="Convívio entre alunos e explicadores"
+                             loading="lazy">
+
+                        <div class="gallery-item-info">
+                            <span>📸 Fotografia</span>
+                            <h3>Partilha e convivência</h3>
+                        </div>
+                    </article>
+
+                </div>
+
+                <p class="gallery-note">
+                    As fotografias apresentadas nesta secção devem ser
+                    substituídas pelas imagens reais das atividades do MASAFAM.
+                </p>
+
+            </div>
+
+          <!-- CATEGORIA: VÍDEOS -->
+<div class="gallery-panel" id="videos">
+
+    <div class="video-grid">
+
+        <!-- VÍDEO 1 -->
+        <article class="video-card">
+
+            <video controls preload="metadata">
+                <source src="atividade1.mp4.mp4" type="video/mp4">
+                O teu navegador não suporta a reprodução de vídeos.
+            </video>
+
+            <div class="video-info">
+                <span>🎬 Atividades MASAFAM</span>
+                <h3>As nossas atividades</h3>
+                <p>Momentos de aprendizagem e partilha com os nossos alunos.</p>
+            </div>
+
+        </article>
+
+        <!-- VÍDEO 2 -->
+        <article class="video-card">
+
+            <video controls preload="metadata">
+                <source src="atividade1.mp4.mp4" type="video/mp4">
+                O teu navegador não suporta a reprodução de vídeos.
+            </video>
+
+            <div class="video-info">
+                <span>🎬 Atividades MASAFAM</span>
+                <h3>Momentos especiais</h3>
+                <p>Recordações das nossas atividades educativas.</p>
+            </div>
+
+        </article>
+
+    </div>
+
+</div>
+
+        </section>
+        <!-- OS NOSSOS EXPLICADORES -->
+        <section class="explicadores-section" id="explicadores">
+
+            <div class="explicadores-container">
+
+                <div class="explicadores-heading">
+                    <span class="gallery-section-label">
+                        A NOSSA EQUIPA
+                    </span>
+
+                    <h2>Os Nossos Explicadores</h2>
+
+                    <p>
+                        Conheça os voluntários que dedicam o seu tempo
+                        e conhecimento para apoiar os nossos alunos.
+                    </p>
+                </div>
+
+                <div class="explicadores-grid">
+
+                    <!-- EXPLICADOR 1 -->
+                    <article class="explicador-card">
+
+                        <div class="explicador-foto">
+                            <img src="Foto - exp 1.jpeg"
+                                 alt="Fotografia do primeiro explicador"
+                                 loading="lazy">
+                        </div>
+
+                        <div class="explicador-info">
+                            <h3>Engs. Rosario, Isac e Edmilson</h3>
+                            <span class="explicador-disciplina">
+                                Matemática
+                            </span>
+                        </div>
+
+                    </article>
+
+                    <!-- EXPLICADOR 2 -->
+                    <article class="explicador-card">
+
+                        <div class="explicador-foto">
+                            <img src="Foto-Exp 2.jpg"
+                                 alt="Fotografia do segundo explicador"
+                                 loading="lazy">
+                        </div>
+
+                        <div class="explicador-info">
+                            <h3>Engenheiros</h3>
+                            <span class="explicador-disciplina">
+                                Física
+                            </span>
+                        </div>
+
+                    </article>
+
+                    <!-- EXPLICADOR 3 -->
+                    <article class="explicador-card">
+
+                        <div class="explicador-foto">
+                            <img src="Foto - exp 3.jpeg"
+                                 alt="Fotografia do terceiro explicador"
+                                 loading="lazy">
+                        </div>
+
+                        <div class="explicador-info">
+                            <h3>Engenheiros</h3>
+                            <span class="explicador-disciplina">
+                                Química
+                            </span>
+                        </div>
+
+                    </article>
+
+                    <!-- EXPLICADOR 4 -->
+                    <article class="explicador-card">
+
+                        <div class="explicador-foto">
+                            <img src="Foto - exp 4.jpeg"
+                                 alt="Fotografia do quarto explicador"
+                                 loading="lazy">
+                        </div>
+
+                        <div class="explicador-info">
+                            <h3>Nome do Explicador 4</h3>
+                            <span class="explicador-disciplina">
+                                Informática
+                            </span>
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- CONVITE -->
+        <section class="gallery-invitation">
+
+            <div>
+                <span>FAÇA PARTE DA NOSSA HISTÓRIA</span>
+
+                <h2>Mais apoio, mais futuro.</h2>
+
+                <p>
+                    Continue a acompanhar o nosso trabalho e ajude-nos
+                    a criar mais oportunidades para as nossas crianças.
+                </p>
+            </div>
+
+            <a href="contactos.html">
+                Apoie esta causa →
+            </a>
+
+        </section>
+
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="gallery-footer">
+
+        <a href="index.html">MASAFAM</a>
+
+        <p>Solidariedade, educação e esperança.</p>
+
+        <div>
+            <a href="index.html">Início</a>
+            <a href="contactos.html">Contactos</a>
+        </div>
+
+        <small>© 2026 MASAFAM. Todos os direitos reservados.</small>
+
+    </footer>
+
+    <script src="galeria.js"></script>
+
+</body>
+</html>

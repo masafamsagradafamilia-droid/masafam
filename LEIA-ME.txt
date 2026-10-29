@@ -1,0 +1,25 @@
+MASAFAM — Website institucional
+================================
+
+Ficheiros:
+- index.html: estrutura e conteúdo
+- style.css: design responsivo
+- script.js: menu móvel e ano automático
+
+Como testar:
+1. Extraia a pasta ZIP.
+2. Abra a pasta no Visual Studio Code.
+3. Abra index.html no navegador (ou use a extensão Live Server).
+
+Como publicar gratuitamente:
+- Netlify: https://app.netlify.com/drop
+  Envie a pasta que contém index.html, style.css e script.js.
+- GitHub Pages: https://pages.github.com/
+
+Antes de publicar:
+- Adicione os contactos oficiais do MASAFAM na secção Contactos.
+- Substitua as ilustrações provisórias por fotografias autorizadas das atividades, se desejar.
+- Confirme a redação oficial da história e dos estatutos.
+- Se incluir fotografias de menores, obtenha autorização adequada dos encarregados de educação.
+
+Este é um website estático. Formulários que enviem mensagens, login, bases de dados ou publicação de notícias por um painel de administração exigem serviços adicionais.
